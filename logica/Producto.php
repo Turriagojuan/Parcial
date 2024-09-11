@@ -1,5 +1,5 @@
 <?php
-require ("./persistencia/Conexion.php");
+require_once 'persistencia/Conexion.php';
 require ("./persistencia/ProductoDAO.php");
 
 class Producto{
@@ -68,7 +68,8 @@ class Producto{
             array_push($productos, $producto);
         }
         $conexion -> cerrarConexion();
-        return $productos;        
+        return $productos;   
+           
     }
     
 }
