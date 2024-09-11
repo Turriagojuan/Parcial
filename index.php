@@ -93,5 +93,4 @@ require("logica/Producto.php");
 		</div>
 	</div>
 </body>
-<p>Hola juan</p>
 </html>
